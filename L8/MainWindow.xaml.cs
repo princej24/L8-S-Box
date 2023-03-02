@@ -134,6 +134,8 @@ namespace L8
 
             selectedstudent = students[SelectedIndex];
             DisplayStudentsInformation(selectedstudent);
+
+
         }
 
         private void cbDisplayinfo_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -150,5 +152,21 @@ namespace L8
             DisplayStudentsInformation(selectedstudent);
 
         }
-    }
-}
+    }//. maine 
+
+
+
+    //What "Item" in your listbox and combo box do you add objects to to display them?   // items property // .Items.Add
+
+    // What's the property name that returns the selected item's index?// selected index //
+
+    //What's the difference between the combo box and the list box?
+
+    //The Combo Box is a drop down list that show's only oneitem, but when click displays a list of other items.
+    //The List Box displays multiple items and lets you click toselect one from them.
+
+    //You remove an item from your list box but not the list of data you've associated it with. Is this a problem? Yes or no? And why? no its not a problem it just wont be consistent bettwen the list box and your data source 
+
+    //What kind of event is created when you double-click a combo or list box?//object sender routed event 
+
+}// name space 
