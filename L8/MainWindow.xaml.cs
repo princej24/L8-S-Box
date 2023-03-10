@@ -152,7 +152,7 @@ namespace L8
             DisplayStudentsInformation(selectedstudent);
 
         }
-    }//. maine 
+    }//. main
 
 
 
